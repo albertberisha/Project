@@ -50,9 +50,8 @@ for iOP=1:nOP
 
     % Initial Conditions from SteadyStates
 
-%%% Parameter.IC.x_T                = interp1([12 16 20 24],SteadyStates.x_T ,OP,'linear','extrap');      %?????
-%%
-adsdas
+% Parameter.IC.x_T                = interp1([12 16 20 24],SteadyStates.x_T ,OP,'linear','extrap');      %?????
+
 
     % Processing SLOW for this OP
     sim('Nepal_FBNREL_SLOW1DOF_Ex3.mdl')
